@@ -20,3 +20,20 @@ print("Cost:", 19.99)
 ```
 
 What is the argument you pass to `print()`?
+
+---
+## 2026-11-10 15:54, in .
+
+**Me:** how to add two numbers
+
+**Tutor:**
+
+Adding two numbers in Python is done with the `+` operator.
+
+```python
+def add_two_numbers(a, b):
+    # TODO: return the sum of a and b
+    pass
+```
+
+What is the operator that combines two values into a single sum?
