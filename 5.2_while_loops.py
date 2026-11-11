@@ -28,10 +28,12 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My stop condition, my attempt limit, my summary:
+# 1. In: User console text inputs prompted up to 4 times (e.g., "yes", "no", or invalid strings).
+# 2. Process: Log each raw input, normalize it with .strip().lower(), validate against accepted values ("yes"/"y" or "no"/"n"), track attempt count, and terminate early on valid input or break after reaching the safety limit.
+# 3. Out: Immediate feedback per attempt plus a final session summary showing final status, total attempts used, and the input history list.
+# 4. My stop condition, my attempt limit, my summary: - Stop condition: User enters "yes"/"y" or "no"/"n" (case- and space-insensitive).
+- Attempt limit: 4 attempts max; defaults to "TIMED_OUT" if exceeded.
+- Summary contains: Final outcome status, attempt count vs. max allowed, and logged entries.
 
 
 # Your code below
