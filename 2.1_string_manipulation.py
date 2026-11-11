@@ -24,11 +24,16 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
+# 1. In:    A single string (sentence) entered by the user via standard input.
+# 2. Process:  The raw input string is processed using four distinct Python string methods:
+   .strip(), .upper(), .title(), and .replace().
+# 3. Out: Four formatted lines printed to the console, each displaying the result of one
+   specific transformation applied to the original input.
 # 4. My four transformations, and when each is useful:
-
+- strip(): Useful for cleaning user input forms to eliminate accidental leading/trailing whitespace before storing in a database.
+   - upper(): Useful for case-insensitive comparisons, such as standardizing promo codes or airport codes (e.g., 'jfk' -> 'JFK').
+   - title(): Useful for formatting names, book titles, or article headlines where each word must start with an uppercase letter.
+   - replace(): Useful for sanitizing text or creating URL-friendly slugs by swapping characters (e.g., replacing spaces with hyphens).
 
 # Your code below
 
