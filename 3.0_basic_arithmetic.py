@@ -24,10 +24,19 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What happens when the second number is zero, and why:
+# 1. In: Two numbers entered by the user via standard input (converted from strings
+   to floating-point numbers using float() to support decimals).
+# 2. Process:  The numbers are converted to numeric types, and the four standard arithmetic
+   operations are applied: addition (+), subtraction (-), multiplication (*),
+   and true division (/).
+# 3. Out: Printed lines displaying the equation and calculated result for each of
+   the four operations.
+# 4. What happens when the second number is zero, and why: Decision: Display an informative message for the division operation instead
+   of a numeric result ("Division by zero is undefined"), while still displaying
+   the results for addition, subtraction, and multiplication.
+   Defense: Addition, subtraction, and multiplication by zero are mathematically
+   valid and informative (e.g., 5 * 0 = 0). Crashing the program or refusing to show
+   the other valid operations would discard useful calculations.
 
 
 # Your code below
