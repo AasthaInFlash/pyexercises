@@ -31,9 +31,23 @@ DELIVERABLE
 
 
 # Your code below
-number_1 = input("Enter the first number: 3 ")
-number_2 = input("Enter the second number: 2 ")
 
-print("The first number is : ", number_1)
-print("The second number is : ", number_2)
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+add_result = num1 + num2
+sub_result = num1 - num2
+mul_result = num1 * num2
+
+
+print("\n--- Results ---")
+print(f"{num1} + {num2} = {add_result}")
+print(f"{num1} - {num2} = {sub_result}")
+print(f"{num1} * {num2} = {mul_result}")
+
+if num2 == 0:
+    print(f"{num1} / {num2} = Undefined (division by zero is not allowed)")
+else:
+    div_result = num1 / num2
+    print(f"{num1} / {num2} = {div_result}")
 

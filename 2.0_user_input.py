@@ -33,10 +33,15 @@ DELIVERABLE
 
 
 # Your code below
-name = input("Aastha")
-age = input("25")
+item_name = input("Enter the inventory item/part name: ")
+stock_input = input("Enter current units in warehouse: ")
 
-print("My name is ", name)
-print("My age is ", age)
 
-print("My name is " + name + "and my age is " + age)
+
+current_stock = int(stock_input)
+projected_stock = current_stock + 1
+
+
+print(f"Inventory update logged: Item '{item_name}' currently has {current_stock} units, "
+    f"and will reach {projected_stock} units once the incoming test unit is checked in."
+)

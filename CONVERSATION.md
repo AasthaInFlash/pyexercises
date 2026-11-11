@@ -37,3 +37,131 @@ def add_two_numbers(a, b):
 ```
 
 What is the operator that combines two values into a single sum?
+
+---
+## 2026-11-10 17:23, in .
+
+**Me:** how to add two numbers
+
+**Tutor:**
+
+Concept: Adding two numbers with the `+` operator.
+
+Pattern:
+```python
+def add_numbers(a, b):
+    # TODO: return the sum of a and b
+    pass
+```
+
+Question: What operator is used to add `a` and `b` in the function above?
+How to reverse a list
+
+---
+## 2026-11-11 10:11, in .
+
+**Me:** how to reverse a list
+
+**Tutor:**
+
+Reversing a list in Python.
+
+```python
+def reverse_list(items):
+    # TODO: return a new list with the elements in reverse order
+    pass
+
+# Example usage
+original = [10, 20, 30]
+reversed_items = reverse_list(original)
+print(reversed_items)  # Should print [30, 20, 10]
+```
+
+Which built-in list method reverses the order of elements in place?
+
+---
+## 2026-11-11 10:11, in .
+
+**Me:** what is dictionary can we store numbers
+
+**Tutor:**
+
+Dictionaries store key-value pairs.
+
+```python
+def make_price_map():
+    # TODO: create a dictionary that maps product names (strings) to prices (numbers)
+    pass
+
+# Example
+prices = make_price_map()
+print(prices["alpha"])  # Should print a number
+```
+
+Name the type used for dictionary keys in Python.
+
+---
+## 2026-11-11 10:12, in .
+
+**Me:** what is the difference between while loops and for loops
+
+**Tutor:**
+
+Difference between while and for loops.
+
+```python
+# while loop – runs as long as a condition is True
+count = 0
+while count < 3:          # condition
+    print("while", count)
+    count += 1
+
+# for loop – iterates over a sequence (list, string, range…)
+for value in [10, 20, 30]:  # sequence
+    print("for", value)
+```
+
+Which loop type should you use when you know exactly how many times you want to repeat something?
+
+---
+## 2026-11-11 10:12, in .
+
+**Me:** what is list manipulation howto sort a list
+
+**Tutor:**
+
+List manipulation: sorting a list.
+
+```python
+def sort_prices(prices):
+    # TODO: return a new list with the prices sorted in ascending order
+    pass
+
+# Example
+original = [3.99, 1.50, 2.75]
+sorted_prices = sort_prices(original)
+print(sorted_prices)  # Should print [1.5, 2.75, 3.99]
+```
+
+Which built-in function returns a new sorted list without changing the original?
+
+---
+## 2026-11-11 10:13, in .
+
+**Me:** how to check if a number is odd or even
+
+**Tutor:**
+
+Checking if a number is odd or even.
+
+```python
+def is_even(number):
+    # TODO: return True if the number is even, False if it is odd
+    pass
+
+# Example
+print(is_even(4))  # Should print True
+print(is_even(7))  # Should print False
+```
+
+Which operator do you use with the modulus (%) to test divisibility by 2?
