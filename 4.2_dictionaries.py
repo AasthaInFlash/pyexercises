@@ -23,10 +23,16 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My object, my five fields, and why those:
+# 1. In: A dictionary with 5 initial fields describing a product ("sku", "title", "unit_price", "stock_quantity", "is_clearance").
+# 2. Process: Read a field by key, safely query a missing key using .get(), update "unit_price", remove "is_clearance" with .pop(), and iterate over all remaining items.
+# 3. Out: Printed outputs showing the read value, the safe fallback for the missing key, the updated price, the removed value, and all remaining key-value pairs.
+# 4. My object, my five fields, and why those: Object: An e-commerce product SKU.
+- "sku": Unique identifier for warehouse lookup.
+- "title": Name displayed on the storefront.
+- "unit_price": Base price used for checkout.
+- "stock_quantity": Available inventory count.
+- "is_clearance": Flag to trigger clearance discounts.
+Missing key note: product["warehouse_bin"] throws a KeyError; product.get() avoids the crash by returning a default value.
 
 
 # Your code below
