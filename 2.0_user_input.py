@@ -26,10 +26,14 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My two fields, and what I would do with them:
+# 1. In: item_name: A string entered by the user representing the inventory item/part name.
+stock_input: A string of digits entered by the user representing current units in the warehouse.
+# 2. Process: - Prompt the user and capture both values as strings using input(). Convert stock_input from a string into an integer using int() so arithmetic is possible. Add 1 to current_stock to calculate projected_stock after a test unit check-in. Construct a final formatted status message using an f-string combining the name, current stock, and projected stock.
+# 3. Out: A printed status message summarizing the reorder status and updated inventory level.
+# 4. My two fields, and what I would do with them: Field 1: Item / Part Name (e.g., "Brake Caliper Assembly")
+Field 2: Current Stock Level (e.g., 14)
+Purpose (Supply Chain / Warehouse Ops): On a daily inventory log form, the operations team records an item identifier alongside physical stock. The system calculates upcoming
+inventory adjustments (stock + 1 incoming sample batch) and generates a restocking summary.
 
 
 # Your code below

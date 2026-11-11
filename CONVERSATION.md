@@ -165,3 +165,25 @@ print(is_even(7))  # Should print False
 ```
 
 Which operator do you use with the modulus (%) to test divisibility by 2?
+
+---
+## 2026-11-11 10:25, in .
+
+**Me:** how to replace any numbers or text
+
+**Tutor:**
+
+String replacement in Python.
+
+```python
+def clean_text(text):
+    # TODO: return the text with every digit replaced by '#' and every letter by '*'
+    pass
+
+# Example
+dirty = "a1b2c3"
+clean = clean_text(dirty)
+print(clean)  # Should print "***###"
+```
+
+Which string method replaces all occurrences of a substring?
