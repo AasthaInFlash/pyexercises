@@ -25,10 +25,14 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My four orders, and which ones modify the original:
+# 1. In: The list of 5 destination strings: places = ["Kyoto", "Reykjavik", "Cusco", "Cape Town", "Banff"].
+# 2. Process: Create temporary reordered copies using sorted() and slicing [::-1], avoiding mutating methods like .sort() and .reverse().
+# 3. Out: Printed versions of the list in 4 new orders, followed by the unchanged original list.
+# 4. My four orders, and which ones modify the original: - Order 1: Alphabetical (sorted(places)) -> Returns a new copy.
+Order 2: Reverse alphabetical (sorted(places, reverse=True)) -> Returns a new copy.
+Order 3: Reversed original sequence (places[::-1]) -> Returns a new slice copy.
+Order 4: Sorted by word length (sorted(places, key=len)) -> Returns a new copy.
+None of them modify the original list.
 
 
 # Your code below
