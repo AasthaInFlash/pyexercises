@@ -26,10 +26,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What my list is about, and what I computed from it:
+# 1. In: A pre-defined list of 14 integers representing daily batch units received at a distribution warehouse across a two-week cycle: [3, 5, 7, 9, 11, 13, 15, 17, 1, 2, 4, 6, 8, 10].
+# 2. Process: - Access specific individual items by index (e.g., indices 0 and 1). Create a sorted copy of the list using sorted() without mutating the original. Remove the last recorded day using .pop() to simulate dropping an incomplete shift. Compute aggregate statistics: total units (sum) and average units per shift (sum / len).
+# 3. Out: Console outputs displaying: The complete initial list. Chosen individual items by position. The list in sorted ascending order. The popped item and the updated list state. Computed metrics: total units processed and the average units per shift.
+# 4. What my list is about, and what I computed from it: - Domain context: Daily batch intake numbers for warehouse inventory control. What was computed: The total intake (sum = 91 units across 13 recorded batches)  and the average daily batch size (7.0 units). Why it is interesting: It establishes baseline inbound volume, helping warehouse   managers forecast staffing requirements and benchmark daily worker capacity.
 
 
 # Your code below

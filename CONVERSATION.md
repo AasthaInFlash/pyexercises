@@ -187,3 +187,44 @@ print(clean)  # Should print "***###"
 ```
 
 Which string method replaces all occurrences of a substring?
+
+---
+## 2026-11-11 10:44, in .
+
+**Me:** how to check if a number is odd
+
+**Tutor:**
+
+Checking if a number is odd.
+
+```python
+def is_odd(number):
+    # TODO: return True if the number is odd, False otherwise
+    pass
+
+# Example
+print(is_odd(5))  # Should print True
+print(is_odd(4))  # Should print False
+```
+
+Which operator combined with 2 gives the remainder when dividing the number?
+
+---
+## 2026-11-11 10:45, in .
+
+**Me:** what is the equals to sign
+
+**Tutor:**
+
+The equals sign in Python.
+
+```python
+# Assignment
+x = 10
+
+# Comparison
+y = 20
+print(x == y)  # prints False
+```
+
+What keyword tests equality in an if-statement?
