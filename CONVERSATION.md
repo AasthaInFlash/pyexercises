@@ -228,3 +228,47 @@ print(x == y)  # prints False
 ```
 
 What keyword tests equality in an if-statement?
+
+---
+## 2026-11-11 10:56, in .
+
+**Me:** what values can we add to the dictionary
+
+**Tutor:**
+
+Dictionary values can be any Python object: numbers, strings, lists, other dictionaries, booleans, None, etc.
+
+```python
+def build_sample_dict():
+    # TODO: return a dictionary whose values are one number, one string, one list, and one boolean
+    pass
+
+# Example
+sample = build_sample_dict()
+print(sample["price"])   # prints a number
+print(sample["tags"])    # prints a list
+```
+
+Name the type used for dictionary keys in Python.
+
+---
+## 2026-11-11 10:56, in .
+
+**Me:** how to reverse a list
+
+**Tutor:**
+
+Reversing a list.
+
+```python
+def reverse_list(items):
+    # TODO: return a new list with the elements in reverse order
+    pass
+
+# Example
+original = ["alpha", "beta", "gamma"]
+reversed_items = reverse_list(original)
+print(reversed_items)  # Should print ['gamma', 'beta', 'alpha']
+```
+
+Which built-in function returns an iterator that yields items in reverse order?

@@ -24,10 +24,11 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What I compute for each item, and why it is worth showing:
+# 1. In: The list of 13 integers from 4.0: numbers = [3, 5, 7, 9, 11, 13, 15, 17, 1, 2, 4, 6, 8].
+# 2. Process: The list of 13 integers from 4.0: numbers = [3, 5, 7, 9, 11, 13, 15, 17, 1, 2, 4, 6, 8].
+# 3. Out: Exactly 13 formatted lines displaying each number's 1-based position, original value, square, and parity.
+# 4. What I compute for each item, and why it is worth showing: - Computed: Square and parity (even/odd).
+- Reader takeaway: Shows the item's ranking order, its exponential magnitude, and its numeric classification at a glance.
 
 
 # Your code below
