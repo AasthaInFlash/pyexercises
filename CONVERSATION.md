@@ -601,3 +601,18 @@ print(missing_value)
 ```
 
 What did you try to name that Python could not find?
+
+---
+## 2026-11-16 21:01, in .
+
+**Me:** what is TODO comment?
+
+**Tutor:**
+
+A TODO comment is a note you leave in your code to remind yourself or others where more work is needed.
+
+```python
+# TODO: calculate the total cost from the price and quantity columns
+```
+
+What should you write after the # TODO: in this line?
