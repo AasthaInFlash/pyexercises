@@ -392,3 +392,57 @@ def divide(a, b):
 ```
 
 What is the second argument in the call that causes the error?
+
+---
+## 2026-11-16 14:49, in .
+
+**Me:** How do I store each day's move as a tuple in a history list and find the days with the highest and lowest reputation changes?
+
+**Tutor:**
+
+Storing daily moves as tuples in a list.
+
+```python
+# history is a list of tuples (day, reputation_change)
+history = []
+
+# example: append two days
+history.append(("2024-05-01", 5))
+history.append(("2024-05-02", -3))
+
+# find days with highest and lowest change
+if history:
+    highest = max(history, key=lambda x: x[1])
+    lowest  = min(history, key=lambda x: x[1])
+else:
+    highest = lowest = None
+```
+
+What does the lambda inside max do to each tuple?
+
+---
+## 2026-11-16 14:49, in .
+
+**Me:** How can I store each choice (A, B, C) as a tuple (text, budget_change, reputation_change, feedback) and write a function that returns and unpacks (budget, reputation)?
+
+**Tutor:**
+
+Storing choices as tuples is a way to group related data.
+
+```python
+# Define the choices as tuples
+choices = {
+    "A": ("text A", 100, 5, "feedback A"),
+    "B": ("text B", 200, -3, "feedback B"),
+    "C": ("text C", 50, 2, "feedback C")
+}
+
+def unpack_choice(choice_key):
+    # TODO: return the budget_change and reputation_change for the given choice_key
+    pass
+
+# Example usage
+budget, reputation = unpack_choice("A")
+```
+
+What does the function `unpack_choice` return when given the key `"B"`?
